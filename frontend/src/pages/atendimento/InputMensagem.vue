@@ -617,14 +617,12 @@ export default {
         mensagem = `*${username}*:\n ${mensagem}`
       }
       const message = {
-        read: 1,
+        read: true,
         fromMe: true,
-        mediaUrl: '',
         body: mensagem,
         scheduleDate: this.isScheduleDate ? this.scheduleDate : null,
         quotedMsg: this.replyingMessage,
-        // idFront: uid()
-        id: uid()
+        idFront: uid()
       }
       if (this.isScheduleDate) {
         message.scheduleDate = this.scheduleDate
@@ -671,14 +669,12 @@ export default {
         mensagem = `*${username}*:\n ${mensagem}`
       }
       const message = {
-        read: 1,
+        read: true,
         fromMe: true,
-        mediaUrl: '',
         body: mensagem,
         scheduleDate: this.isScheduleDate ? this.scheduleDate : null,
         quotedMsg: this.replyingMessage,
-        // idFront: uid()
-        id: uid()
+        idFront: uid()
       }
 
       this.loading = true

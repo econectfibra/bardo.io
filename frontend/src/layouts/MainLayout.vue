@@ -266,21 +266,23 @@ const objMenu = [
   {
     title: 'Dashboard',
     caption: '',
-    icon: 'mdi-home',
-    routeName: 'home-dashboard'
+    icon: 'mdi-view-dashboard-variant',
+    routeName: 'home-dashboard',
+    iconColor: 'blue-7'
   },
-
   {
     title: 'Atendimentos',
     caption: 'Lista de atendimentos',
-    icon: 'mdi-forum-outline',
-    routeName: 'atendimento'
+    icon: 'mdi-message-text-outline',
+    routeName: 'atendimento',
+    iconColor: 'green-7'
   },
   {
     title: 'Contatos',
     caption: 'Lista de contatos',
-    icon: 'mdi-card-account-mail',
-    routeName: 'contatos'
+    icon: 'mdi-account-group',
+    routeName: 'contatos',
+    iconColor: 'purple-7'
   }
 ]
 
@@ -288,74 +290,86 @@ const objMenuAdmin = [
   {
     title: 'Canais',
     caption: 'Canais de Comunicação',
-    icon: 'mdi-cellphone-wireless',
-    routeName: 'sessoes'
+    icon: 'mdi-devices',
+    routeName: 'sessoes',
+    iconColor: 'deep-orange-7'
   },
   {
     title: 'Painel Atendimentos',
     caption: 'Visão geral dos atendimentos',
-    icon: 'mdi-view-dashboard-variant',
-    routeName: 'painel-atendimentos'
+    icon: 'mdi-view-grid-plus',
+    routeName: 'painel-atendimentos',
+    iconColor: 'cyan-7'
   },
   {
     title: 'Relatórios',
     caption: 'Relatórios gerais',
-    icon: 'mdi-file-chart',
-    routeName: 'relatorios'
+    icon: 'mdi-chart-timeline-variant',
+    routeName: 'relatorios',
+    iconColor: 'teal-7'
   },
   {
     title: 'Usuarios',
     caption: 'Admin de usuários',
-    icon: 'mdi-account-group',
-    routeName: 'usuarios'
+    icon: 'mdi-account-multiple',
+    routeName: 'usuarios',
+    iconColor: 'pink-7'
   },
   {
     title: 'Filas',
     caption: 'Cadastro de Filas',
-    icon: 'mdi-arrow-decision-outline',
-    routeName: 'filas'
+    icon: 'mdi-format-list-checks',
+    routeName: 'filas',
+    iconColor: 'indigo-7'
   },
   {
     title: 'Mensagens Rápidas',
     caption: 'Mensagens pré-definidas',
-    icon: 'mdi-reply-all-outline',
-    routeName: 'mensagens-rapidas'
+    icon: 'mdi-message-flash',
+    routeName: 'mensagens-rapidas',
+    iconColor: 'light-blue-7'
   },
   {
     title: 'Chatbot',
     caption: 'Robô de atendimento',
     icon: 'mdi-robot',
-    routeName: 'chat-flow'
+    routeName: 'chat-flow',
+    iconColor: 'deep-purple-7'
   },
   {
     title: 'Etiquetas',
     caption: 'Cadastro de etiquetas',
-    icon: 'mdi-tag-text',
-    routeName: 'etiquetas'
+    icon: 'mdi-label-multiple',
+    routeName: 'etiquetas',
+    iconColor: 'amber-7'
   },
   {
     title: 'Horário de Atendimento',
     caption: 'Horário de funcionamento',
     icon: 'mdi-calendar-clock',
-    routeName: 'horarioAtendimento'
+    routeName: 'horarioAtendimento',
+    iconColor: 'brown-7'
   },
   {
     title: 'Configurações',
     caption: 'Configurações gerais',
-    icon: 'mdi-cog',
-    routeName: 'configuracoes'
+    icon: 'mdi-cog-refresh',
+    routeName: 'configuracoes',
+    iconColor: 'grey-7'
   },
   {
     title: 'Campanha',
     caption: 'Campanhas de envio',
-    icon: 'mdi-message-bookmark-outline',
-    routeName: 'campanhas'
+    icon: 'mdi-bullhorn-outline',
+    routeName: 'campanhas',
+    iconColor: 'red-7'
   },
   {
     title: 'API',
     caption: 'Integração sistemas externos',
-    icon: 'mdi-call-split',
-    routeName: 'api-service'
+    icon: 'mdi-api',
+    routeName: 'api-service',
+    iconColor: 'blue-grey-7'
   }
 ]
 

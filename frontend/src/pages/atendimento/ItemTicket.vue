@@ -51,7 +51,8 @@
             :label="ticket.unreadMessages" />
           <img :src="ticket.profilePicUrl"
             onerror="this.style.display='none'"
-            v-show="ticket.profilePicUrl">
+            v-show="ticket.profilePicUrl"
+            style="background: #ebebeb linear-gradient(45deg, #f3f3f3 25%, transparent 25%, transparent 50%, #f3f3f3 50%, #f3f3f3 75%, transparent 75%, transparent) no-repeat center">
           <q-icon size="50px"
             name="mdi-account-circle"
             color="grey-8" />
@@ -263,7 +264,7 @@ img:after
   width: inherit
   height: inherit
   z-index: 10
-  background: #ebebeb url('http://via.placeholder.com/300?text=PlaceHolder') no-repeat center
+  background: #ebebeb linear-gradient(45deg, #f3f3f3 25%, transparent 25%, transparent 50%, #f3f3f3 50%, #f3f3f3 75%, transparent 75%, transparent) no-repeat center
   color: transparent
 
 .ticket-active-item

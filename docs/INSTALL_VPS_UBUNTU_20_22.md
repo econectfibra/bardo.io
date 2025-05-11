@@ -381,25 +381,16 @@ app.listen(4444)
 
 45. Instalando as dependências
 ```bash
-npm install --force
+npm install --legacy-peer-deps
 ```
 
-46. Instalando Quasar
 
-```bash
-npm i @quasar/cli
-```
-
-47. Mudar configuracao SSL para compilar
-
-```bash
-export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
 48. Buildando o frontend
 
 ```bash
-npx quasar build -P -m pwa
+npm rum build
 ```
 
 49. Iniciando o frontend com PM2
